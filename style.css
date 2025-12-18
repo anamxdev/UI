@@ -30,10 +30,6 @@ body {
     position:relative;
 }
 
-img {
-    height: 14px;
-}
-
 #back-btn {
   background-color: rgba(224, 215, 215, 0.3);
   border: none;
@@ -76,8 +72,12 @@ h2 {
     font-weight: 300;
 }
 
+img {
+    height: 16px;
+}
+
 #button-div{
-    display:flex;
+    display:flex; 
 }
 
 #google, #apple {
@@ -90,7 +90,8 @@ h2 {
     margin: 10px;
     display: flex;          
     align-items: center;        
-    justify-content: center; 
+    justify-content: center;
+    gap: 6px;
 }
 
 #create-btn {
@@ -111,7 +112,11 @@ h2 {
 }
 
 a {
-    color:rgb(88, 45, 110)
+    color:rgb(116, 59, 144)
+}
+
+a:hover {
+    color:rgb(74, 38, 92)
 }
 
 .name-row {
